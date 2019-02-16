@@ -5,8 +5,16 @@
 </head>
 
 <body>
-<button>pointless button</button>
-<input>Gebe eine Zahl ein!</input>
+<script>
+function reflect(inputID, outputID){
+	var reflected = document.getElementById(inputID).value;
+	document.getElementById(outputID).innerHTML = reflected;
+}
+</script>
+
+<input id="inputID_001"></input>
+<button type="button" onclick="reflect('inputID_001','outputID_001');">submit</button>
+<p id="outputID_001"></p>
 </body>
 
 </html>
