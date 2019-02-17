@@ -14,7 +14,7 @@ function reflect(inputID, outputID){
 function frameselect(optionID, outputID){
 	var fselect = document.getElementById(optionID).value;
 	if (fselect == "early morning"){
-		document.getElementById(outputID).innerHTML = <iframe src="https://www.youtube.com/watch?v=x0uwP_rvEPo"></iframe>;
+		document.getElementById(outputID).innerHTML = "src='https://www.youtube.com/watch?v=x0uwP_rvEPo'";
 	}
 }
 </script>
@@ -23,9 +23,10 @@ function frameselect(optionID, outputID){
 <button type="button" onclick="reflect('inputID_001','outputID_001');">submit</button>
 
 <select>
-	<option id="optionID_001" value="early morning" onclick="frameselect(optionID, outputID);">early morning</option> 
+	<option id="optionID_001" value="early morning" onclick="frameselect('optionID_001', 'iframeID_001');">early morning</option> 
 </select>
 <p id="outputID_001"></p>
+<iframe id="iframeID_001"></iframe>
 </body>
 
 </html>
