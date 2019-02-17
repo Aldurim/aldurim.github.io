@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Blender Game-Project Novic</title>
-
+<meta http-equiv="Content-Security-Policy" content="default-src: 'host-source' https://www.youtube-nocookie.com/embed/x0uwP_rvEPo?start=0">
 <style>
 	iframe {
 		width: 500px;
@@ -60,6 +60,12 @@
 </head>
 
 <body>
+<script>
+function reflect(inputID, outputID){
+	var reflected = document.getElementById(inputID).value;
+	document.getElementById(outputID).innerHTML = reflected;
+}
+</script>
 
 <button class="head" type="button" onclick="location.href='https://aldurim.github.io/index.html'">HOME</button>
 <button class="head" type="button" onclick="location.href='https://aldurim.github.io/pages/projects.html'">PROJECTS</button>
@@ -67,12 +73,9 @@
 
 <hr>
 
-<div style="position : relative; buttom">
-<span style="font-size : 16px;">Name : Markus Hecker<br>E-mail aldurimhecker@gmail.com</span>
-<p>Diese Seite dient zu Übungs und Studienzwecken</p>
-</div>
+<img src="https://aldurim.github.io/pictures/Novic2.png" onclick="location.href='https://aldurim.github.io/pages/novic.html'"></img>
+
 </body>
 
 </html>
-
 
