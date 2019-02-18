@@ -6,7 +6,8 @@
 		width: 500px;
 		height: 256px;
 		margin 0% 0%;
-		border 0;
+		border-style : solid;
+		border-color : #2e3436;
 		frameborder=0;
 	}
 
@@ -52,11 +53,28 @@
 		font-weight : 700; 
 	}
 
-	option{background-color: #202020;
+	option{
+		background-color: #202020;
 		color: #729fcf;
 		border-color : #2e3436;
 		font-size : 14px;
 		text-align : center;	
+		font-weight : 700; 
+	}
+
+	img{
+		border-style : solid;
+		border-color : #2e3436;					
+	}
+
+	img.tiny{
+		width : 256px;
+		height : 128px;	
+	}
+
+	a{
+		color: #fcaf3e;
+		font-size : 32px;
 		font-weight : 700; 
 	}
 
