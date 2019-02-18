@@ -67,9 +67,9 @@
 		border-color : #2e3436;					
 	}
 
-	img.tiny{
-		width : 256px;
-		height : 128px;	
+	img.medium{
+		width : 512px;
+		height : 256px;	
 	}
 
 	a{
