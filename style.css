@@ -8,7 +8,6 @@
 		margin 0% 0%;
 		border-style : solid;
 		border-color : #2e3436;
-		frameborder=0;
 	}
 
 	body{
@@ -41,8 +40,8 @@
 
 	button.secondHead{
 		color: #729fcf;
-		font-size : 24px;
-		font-weight : 700; 
+		font-size : 20px;
+		font-weight : 600; 
 	}
 	
 	select{background-color: #202020;
