@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang="de">
+<head>
+<style>
+	iframe {
+		width: 500px;
+		height: 256px;
+		margin 0% 0%;
+		border 0;
+		frameborder=0;
+	}
+
+	body{
+	background-color: #202020
+	}
+	
+	p{color : #eeeeec;}
+	span{color : #eeeeec;}
+	h6{color : #eeeeec;}
+	div{color : #eeeeec;}
+
+	input{background-color: #202020;
+		color: #eeeeec;
+		border-color : #2e3436;
+		font-size : 14px;
+		text-align : center;	
+		font-weight : 700; 
+	}
+	
+	button{background-color: #202020;
+		border-color : #2e3436;
+		text-align : center;	
+	}
+
+	button.head{
+		color: #fcaf3e;
+		font-size : 32px;
+		font-weight : 700; 
+	}
+
+	button.secondHead{
+		color: #729fcf;
+		font-size : 24px;
+		font-weight : 700; 
+	}
+	
+	select{background-color: #202020;
+		color: #729fcf;
+		border-color : #2e3436;
+		font-size : 14px;
+		text-align : center;	
+		font-weight : 700; 
+	}
+
+	option{background-color: #202020;
+		color: #729fcf;
+		border-color : #2e3436;
+		font-size : 14px;
+		text-align : center;	
+		font-weight : 700; 
+	}
+
+</style>
+</head>
