@@ -13,8 +13,12 @@
 	body{
 	background-color: #202020
 	}
-	
+
 	p{color : #eeeeec;}
+	p.version{
+		font-size : 20px;
+		font-weight : 700;
+	}
 	span{color : #eeeeec;}
 	h6{color : #eeeeec;}
 	div{color : #eeeeec;}
@@ -23,33 +27,33 @@
 		color: #eeeeec;
 		border-color : #2e3436;
 		font-size : 14px;
-		text-align : center;	
-		font-weight : 700; 
+		text-align : center;
+		font-weight : 700;
 	}
-	
+
 	button{background-color: #202020;
 		border-color : #2e3436;
-		text-align : center;	
+		text-align : center;
 	}
 
 	button.head{
 		color: #fcaf3e;
 		font-size : 32px;
-		font-weight : 700; 
+		font-weight : 700;
 	}
 
 	button.secondHead{
 		color: #729fcf;
 		font-size : 20px;
-		font-weight : 600; 
+		font-weight : 600;
 	}
-	
+
 	select{background-color: #202020;
 		color: #729fcf;
 		border-color : #2e3436;
 		font-size : 14px;
-		text-align : center;	
-		font-weight : 700; 
+		text-align : center;
+		font-weight : 700;
 	}
 
 	option{
@@ -57,24 +61,24 @@
 		color: #729fcf;
 		border-color : #2e3436;
 		font-size : 14px;
-		text-align : center;	
-		font-weight : 700; 
+		text-align : center;
+		font-weight : 700;
 	}
 
 	img{
 		border-style : solid;
-		border-color : #2e3436;					
+		border-color : #2e3436;
 	}
 
 	img.medium{
 		width : 512px;
-		height : 256px;	
+		height : 256px;
 	}
 
 	a{
 		color: #fcaf3e;
 		font-size : 32px;
-		font-weight : 700; 
+		font-weight : 700;
 	}
 
 </style>
