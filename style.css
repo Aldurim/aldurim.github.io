@@ -6,7 +6,8 @@
 		width: 500px;
 		height: 256px;
 		margin 0% 0%;
-		border-style : solid;
+		frameborder : 1;
+		border-style : solid
 		border-color : #2e3436;
 	}
 
