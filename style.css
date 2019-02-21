@@ -50,8 +50,7 @@
 		font-weight : 600;
 	}
 
-	button.download:hover{
-		background-color: #101010;
+	button.download{
 		color: #729fcf;
 		font-size : 20px;
 		font-weight : 600;
