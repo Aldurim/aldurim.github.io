@@ -3,3 +3,4 @@
 *.rar filter=lfs diff=lfs merge=lfs -text
 =======
 >>>>>>> 2c3406827d52cce8931aa2408b6a3c084cdaee3a
+*.gz filter=lfs diff=lfs merge=lfs -text
