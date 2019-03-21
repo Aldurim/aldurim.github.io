@@ -95,5 +95,10 @@
 	hr.medium{
 		width : 50%;
 	}
+
+	details{
+		font-size : 18px;
+		font-weight : 550;
+	}
 </style>
 </head>
